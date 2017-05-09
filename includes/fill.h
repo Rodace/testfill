@@ -6,7 +6,7 @@
 /*   By: nadam <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/24 09:45:50 by nadam             #+#    #+#             */
-/*   Updated: 2017/04/28 17:02:41 by nadam            ###   ########.fr       */
+/*   Updated: 2017/05/09 15:25:48 by nadam            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,16 +53,25 @@ t_tetri			**memtetri(char *str);
 void			printsquare(char **tab);
 int				check_tetri(char *str, int i);
 t_tetri			*write_tetri(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_i(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_s(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_z(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_o(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_t1(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_t2(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_l1(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_l2(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_j1(char *str, char c, t_tetri *tetri, int i);
-t_tetri			*write_j2(char *str, char c, t_tetri *tetri, int i);
+t_tetri			*write_i1(t_tetri *tetri);
+t_tetri			*write_i2(t_tetri *tetri);
+t_tetri			*write_s1(t_tetri *tetri);
+t_tetri			*write_s2(t_tetri *tetri);
+t_tetri			*write_z1(t_tetri *tetri);
+t_tetri			*write_z2(t_tetri *tetri);
+t_tetri			*write_o(t_tetri *tetri);
+t_tetri			*write_t1(t_tetri *tetri);
+t_tetri			*write_t2(t_tetri *tetri);
+t_tetri			*write_t3(t_tetri *tetri);
+t_tetri			*write_t4(t_tetri *tetri);
+t_tetri			*write_l1(t_tetri *tetri);
+t_tetri			*write_l2(t_tetri *tetri);
+t_tetri			*write_l3(t_tetri *tetri);
+t_tetri			*write_l4(t_tetri *tetri);
+t_tetri			*write_j1(t_tetri *tetri);
+t_tetri			*write_j2(t_tetri *tetri);
+t_tetri			*write_j3(t_tetri *tetri);
+t_tetri			*write_j4(t_tetri *tetri);
 int				check_o(char *str, int i);
 int				check_i1(char *str, int i);
 int				check_i2(char *str, int i);
@@ -82,5 +91,8 @@ int				check_j1(char *str, int i);
 int				check_j2(char *str, int i);
 int				check_j3(char *str, int i);
 int				check_j4(char *str, int i);
+t_tetri			*relou(char	*str, int i, int tmax, t_tetri *tetri);
+t_tetri			*relou2(char *str, int i, int tmax, t_tetri *tetri);
+t_tetri			*checkperso(char *str, int i, int tmax, t_tetri *tetri);
 
 #endif

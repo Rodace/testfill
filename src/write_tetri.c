@@ -6,12 +6,12 @@
 /*   By: nadam <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/28 11:35:21 by nadam             #+#    #+#             */
-/*   Updated: 2017/04/28 16:21:03 by nadam            ###   ########.fr       */
+/*   Updated: 2017/05/09 15:23:33 by nadam            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fill.h"
-
+/*
 t_tetri	*write_tetri(char *str, char c, t_tetri *tetri, int i)
 {
 	tetri = write_i(str, c, tetri, i);
@@ -26,3 +26,4 @@ t_tetri	*write_tetri(char *str, char c, t_tetri *tetri, int i)
 	tetri = write_j2(str, c, tetri, i);
 	return (tetri);
 }
+*/

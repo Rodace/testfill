@@ -6,12 +6,12 @@
 /*   By: nadam <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/28 11:24:18 by nadam             #+#    #+#             */
-/*   Updated: 2017/04/28 16:23:03 by nadam            ###   ########.fr       */
+/*   Updated: 2017/05/09 15:27:02 by nadam            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fill.h"
-
+/*
 int		check_j3(char *str, int i)
 {
 	return (str[i + 1] == '#' && str[i + 5] == '#' && str[i + 10] == '#');
@@ -21,14 +21,14 @@ int		check_j4(char *str, int i)
 {
 	return (str[i + 1] == '#' && str[i + 2] == '#' && str[i + 7] == '#');
 }
-
+*/
 /*
 **	j1		j2		j3		j4
 **	.#		#		##		###
 **	.#		###		#		..#
 **	##				#
 */
-
+/*
 t_tetri	*write_j2(char *str, char c, t_tetri *tetri, int i)
 {
 	if (check_j3(str, i))
@@ -59,3 +59,4 @@ t_tetri	*write_j2(char *str, char c, t_tetri *tetri, int i)
 	}
 	return (tetri);
 }
+*/

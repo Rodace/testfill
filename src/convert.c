@@ -6,7 +6,7 @@
 /*   By: nadam <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/27 15:24:53 by nadam             #+#    #+#             */
-/*   Updated: 2017/04/28 15:23:06 by nadam            ###   ########.fr       */
+/*   Updated: 2017/05/09 15:35:18 by nadam            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,9 @@ t_tetri	**convert(char *str)
 		i = j;
 		while (str[i] != '#')
 			i++;
-		printf("check = %i, i = %i\n", check_tetri(str, i), i);
-		if (check_tetri(str, i))
-			tetris[a] = write_tetri(str, c, tetris[a], i);
+		printf("# = %i, j = %i, j+21 = %i\n", i, j, j+21);
+		tetris[a] = checkperso(str, i, j + 21, tetris[a]);
+		tetris[a]->letter = c;
 		printf("apres avoir write\n");
 		a++;
 		c++;
